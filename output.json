@@ -1,0 +1,443 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "code": "VIB0001",
+      "fullname": "Lo Van Quang",
+      "jobcode": "4.1729",
+      "position": "GD Chi nhánh",
+      "status": "Bình thường"
+    },
+    {
+      "id": 2,
+      "code": "VIB0002",
+      "fullname": "Hoang Anh",
+      "jobcode": "5.0112",
+      "position": "TP Tài vụ",
+      "status": "Bình thường"
+    },
+    {
+      "id": 3,
+      "code": "VIB0003",
+      "fullname": "Pham Cuong",
+      "jobcode": "5.1221",
+      "position": "Phó GD Chi nhánh",
+      "status": "Bình thường"
+    },
+    {
+      "id": 4,
+      "code": "VIB0004",
+      "fullname": "Nguyen Anh",
+      "jobcode": "4.0297",
+      "position": "Trưởng BQL",
+      "status": "Bình thường"
+    },
+    {
+      "id": 5,
+      "code": "VIB0005",
+      "fullname": "Nguyen Anh",
+      "jobcode": "4.0297",
+      "position": "Trưởng BQL",
+      "status": "Bình thường"
+    },
+    {
+      "id": 6,
+      "code": "VIB0006",
+      "fullname": "Nguyen Anh",
+      "jobcode": "4.0297",
+      "position": "Trưởng BQL",
+      "status": "Bình thường"
+    }
+  ],
+  "work_status": [
+    {
+      "id": 1,
+      "name": "Tạo giao dịch"
+    },
+    {
+      "id": 2,
+      "name": "Phê duyệt"
+    },
+    {
+      "id": 3,
+      "name": "Chưa hiệu lực"
+    },
+    {
+      "id": 4,
+      "name": "Hiệu lực"
+    },
+    {
+      "id": 5,
+      "name": "Hết hiệu lực"
+    },
+    {
+      "id": 6,
+      "name": "Đã hủy"
+    }
+  ],
+  "assign_status": [
+    {
+      "id": 1,
+      "name": "Tạo giao dịch"
+    },
+    {
+      "id": 2,
+      "name": "Nhận giao dịch"
+    },
+    {
+      "id": 3,
+      "name": "Phê duyệt giao dịch"
+    },
+    {
+      "id": 4,
+      "name": "Chưa hiệu lực"
+    },
+    {
+      "id": 5,
+      "name": "Hiệu lực"
+    },
+    {
+      "id": 6,
+      "name": "Hết hiệu lực"
+    },
+    {
+      "id": 7,
+      "name": "Đã hủy"
+    }
+  ],
+  "assign_list": [
+    {
+      "id": 1,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 2,
+        "name": "Nhận giao dịch"
+      }
+    },
+    {
+      "id": 2,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 3,
+        "name": "Phê duyệt giao dịch"
+      }
+    },
+    {
+      "id": 3,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 6,
+        "name": "Hết hiệu lực"
+      }
+    },
+    {
+      "id": 4,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 3,
+        "name": "Phê duyệt giao dịch"
+      }
+    },
+    {
+      "id": 5,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 4,
+        "name": "Chưa hiệu lực"
+      }
+    },
+    {
+      "id": 6,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 2,
+        "name": "Nhận giao dịch"
+      }
+    },
+    {
+      "id": 7,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 2,
+        "name": "Nhận giao dịch"
+      }
+    },
+    {
+      "id": 8,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 2,
+        "name": "Nhận giao dịch"
+      }
+    },
+    {
+      "id": 9,
+      "branchname": "Tây Hồ",
+      "member": {
+        "id": 1,
+        "name": "Thành phần số 1"
+      },
+      "startDate": "2023-08-17T18:17:39.691Z",
+      "endDate": "2023-08-17T18:17:39.691Z",
+      "owner": {
+        "id": 1,
+        "code": "VIB0001",
+        "fullname": "Lo Van Quang",
+        "jobcode": "4.1729",
+        "position": "GD Chi nhánh",
+        "status": "Bình thường"
+      },
+      "employee": {
+        "id": 2,
+        "code": "VIB0002",
+        "fullname": "Hoang Anh",
+        "jobcode": "5.0112",
+        "position": "TP Tài vụ",
+        "status": "Bình thường"
+      },
+      "note": "Giup anh nhé",
+      "approver": "",
+      "file": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+      "createdDate": "2023-08-17T18:17:39.691Z",
+      "createdUser": "Admin",
+      "updatedDate": "2023-08-17T18:17:39.691Z",
+      "updatedUser": "Admin",
+      "status": {
+        "id": 3,
+        "name": "Phê duyệt giao dịch"
+      }
+    }
+  ]
+}
